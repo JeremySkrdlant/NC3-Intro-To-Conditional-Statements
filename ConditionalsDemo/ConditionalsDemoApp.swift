@@ -11,7 +11,7 @@ import SwiftUI
 struct ConditionalsDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+			ConditionalsInstructions()
         }
     }
 }

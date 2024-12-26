@@ -47,12 +47,12 @@ struct ConditionalsInstructions: View {
 					.padding(.horizontal)
 				
 				// This is our QR Code image also located in the Assets. Note that you can use quotes "" or the dot notation (.) to access elements from your assets folder.
-//				Image(.unitTestSite)
-//					.resizable()
-//					.aspectRatio(contentMode: .fit)
-//					.frame(width:350)
-//					.offset(y:-25)
-//					.padding(.bottom, 100)
+				Image(.conditionsChallenge)
+					.resizable()
+					.aspectRatio(contentMode: .fit)
+					.frame(width:350)
+					.offset(y:-25)
+					.padding(.bottom, 100)
 			}
 			.padding()
 			.onAppear{

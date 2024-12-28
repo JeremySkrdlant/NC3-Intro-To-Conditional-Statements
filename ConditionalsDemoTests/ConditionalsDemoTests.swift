@@ -25,5 +25,17 @@ struct ConditionalsDemoTests {
 		#expect(getStateOfH2O(temperatureF: 220) == "gas")
 	}
 
+	func getShapeNameWith(sides:Int)->String {
+		//Use a switch case on this one. You will use the table of values in the instructions.
+		
+		return "A Shape"
+	}
+	
+	@Test func testGetShapeNameWith() async throws {
+		#expect(getShapeNameWith(sides: 3) == "triangle")
+		#expect(getShapeNameWith(sides: 4) == "rectangle")
+		#expect(getShapeNameWith(sides: 5) == "pentagon")
+		#expect(getShapeNameWith(sides: 6) == "hexagon")
+	}
 
 }

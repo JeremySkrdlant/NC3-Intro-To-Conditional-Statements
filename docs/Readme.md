@@ -9,6 +9,7 @@ Open the Conditionals Demo Test in the file explorer.
 ## getStateOfH2O
 Note that you will be modifying the functions and not the test case area in these unit tests.  There is a comment inside this function showing where you can put your code. The state of H2O can be seen in this diagram below. 
 
+![ice - water - gas](iceGasWater.png)
 
 For your function, we will assume that ice includes 32 and everything below while gas includes 212 and everything above. 
 

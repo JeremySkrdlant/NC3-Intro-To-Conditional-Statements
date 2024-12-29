@@ -15,7 +15,6 @@ func Play(){
 	
 	
 	
-	
 }
 
 //|--------------------|
@@ -35,9 +34,12 @@ func Notes(){
 //|--------------------|
 //|    Right iPhone    |
 //|--------------------|
-#Preview {
+#Preview("Tutorial") {
 	// Do not modify this code, It shows you the insructions on the right.
 	ConditionalsInstructions()
 }
 
+#Preview("Flow Chart"){
+	ThermostatFlowChartView()
+}
 
